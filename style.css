@@ -1,0 +1,105 @@
+/* classes */
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-center {
+	text-align: center;
+}
+/* end classes */
+/* structure */
+body {
+	min-width: 30ch;
+}
+nav {
+	margin-top: 1ch;
+	position: fixed;
+}
+div#margin-box {
+	margin-left: 2ch;
+}
+div#paper, div#links {
+	max-width: 84ch;
+}
+header {
+	padding-top: 2ch;
+}
+article {
+	margin-left: 2ch;
+	margin-right: 2ch;
+}
+footer {
+	padding-bottom: 2ch;
+}
+div#links {
+	padding-top: 2ch;
+	padding-bottom: 2ch;
+}
+/* end structure */
+/* styling */
+body {
+	background: #f1f1f1;
+}
+header, footer {
+	font-size:0.8em;
+	font-family: monospace;
+}
+div#paper, body a:hover {
+	box-shadow: 1px 1px gray;
+}
+article {
+	line-height:140%;
+	word-wrap:break-word;
+}
+pre {
+	color:white;
+	background-color:black;
+	overflow-x:auto;
+	word-wrap:normal;
+	max-width:95%;
+	margin: auto;
+	padding: 1ch;
+}
+code,.quote {
+	line-height:normal;
+}
+a {
+	color:inherit;
+}
+body a {
+	padding: 1ch;
+	text-decoration: none;
+}
+div#paper a {
+	padding: initial;
+	text-decoration: underline;
+}
+div#paper a:hover {
+	box-shadow: none;
+}
+p {
+	text-align:justify;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	border-left:solid;
+	padding-left:2ch;
+}
+h1, h2 {
+	margin-top: 4ch;
+	margin-bottom: 3ch;
+}
+div#paper, body a {
+	background: white;
+}
+footer {
+	border-top: thin solid gray;
+	word-break:break-all;
+}
+div#links a {
+	margin-top: 0.5ch;
+	display: inline-block;
+}
+/* end styling */
