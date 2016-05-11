@@ -21,12 +21,14 @@ div#margin-box {
 div#paper, div#links {
 	max-width: 84ch;
 }
-header {
-	padding-top: 2ch;
-}
 article {
+	padding-top: 2ch;
 	margin-left: 2ch;
 	margin-right: 2ch;
+	padding-bottom: 2ch;
+}
+header {
+	padding-bottom: 3ch;
 }
 footer {
 	padding-bottom: 2ch;
@@ -34,6 +36,10 @@ footer {
 div#links {
 	padding-top: 2ch;
 	padding-bottom: 2ch;
+}
+div#links a {
+	margin-top: 0.5ch;
+	display: inline-block;
 }
 /* end structure */
 /* styling */
@@ -86,9 +92,9 @@ h1 {
 h2 {
 	border-left:solid;
 	padding-left:2ch;
+	margin-top: 4ch;
 }
 h1, h2 {
-	margin-top: 4ch;
 	margin-bottom: 3ch;
 }
 div#paper, body a {
@@ -97,9 +103,5 @@ div#paper, body a {
 footer {
 	border-top: thin solid gray;
 	word-break:break-all;
-}
-div#links a {
-	margin-top: 0.5ch;
-	display: inline-block;
 }
 /* end styling */
