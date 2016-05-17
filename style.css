@@ -55,7 +55,12 @@ div#links a {
 /* end structure */
 /* styling */
 body {
-	background: #F9EAEF;
+	background-color: goldenrod;
+	background-size: 10px;
+	background-image: -webkit-linear-gradient(0, transparent 90%, rgba(255, 255, 255, .25) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 90%, rgba(255, 255, 255, 0.25) 50%);
+	background-image: -ms-linear-gradient(0, transparent 90%, rgba(255, 255, 255, .25) 50%);
+	background-image: -o-linear-gradient(0, transparent 90%, rgba(255, 255, 255, .25) 50%);
 	font-family: sans-serif;
 }
 header, footer {
