@@ -62,8 +62,11 @@ header, footer {
 	font-size:0.8em;
 	font-family: monospace;
 }
-div#paper, body a:hover {
-	box-shadow: 1px 1px gray;
+nav a, div#links a {
+	border: solid thin;
+}
+div#paper, nav a:hover, div#links a:hover {
+	border: solid;
 }
 article {
 	line-height:140%;
@@ -91,9 +94,6 @@ body a {
 div#paper a {
 	padding: initial;
 	text-decoration: underline;
-}
-div#paper a:hover {
-	box-shadow: none;
 }
 p {
 	text-align:justify;
