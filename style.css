@@ -118,4 +118,7 @@ footer {
 	border-top: thin solid gray;
 	word-break:break-all;
 }
+ul {
+	list-style-type: hebrew;
+}
 /* end styling */
