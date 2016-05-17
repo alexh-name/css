@@ -118,4 +118,7 @@ footer {
 ul {
 	list-style-type: hebrew;
 }
+div#links ul {
+	list-style-type: none;
+}
 /* end styling */
