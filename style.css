@@ -17,6 +17,13 @@ body {
 nav {
 	margin-top: 1ch;
 	position: fixed;
+	width: 2ch;
+}
+nav a {
+	float: left;
+	width: 2ch;
+	margin-bottom: 1ch;
+	text-align: center;
 }
 div#margin-box {
 	margin-left: 2ch;
@@ -25,10 +32,10 @@ div#paper, div#links {
 	max-width: 84ch;
 }
 article {
-	padding-top: 2ch;
-	margin-left: 2ch;
-	margin-right: 2ch;
-	padding-bottom: 2ch;
+	padding-top: 3ch;
+	margin-left: 3ch;
+	margin-right: 3ch;
+	padding-bottom: 3ch;
 }
 header {
 	padding-bottom: 3ch;
