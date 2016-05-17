@@ -17,11 +17,12 @@ body {
 nav {
 	margin-top: 1ch;
 	position: fixed;
-	width: 2ch;
+	width: 3ch;
+	font-family: monospace;
 }
 nav a {
 	float: left;
-	width: 2ch;
+	width: 3ch;
 	margin-bottom: 1ch;
 	text-align: center;
 }
