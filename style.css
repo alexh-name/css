@@ -39,7 +39,7 @@ article {
 	padding-bottom: 3ch;
 }
 header {
-	padding-bottom: 3ch;
+	padding-bottom: 8ch;
 }
 footer {
 	padding-bottom: 2ch;
@@ -100,7 +100,7 @@ p {
 }
 h1 {
 	text-align: center;
-	margin: 4ch;
+	margin-bottom: 4ch;
 	text-transform: uppercase;
 }
 h2 {
