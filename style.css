@@ -118,4 +118,8 @@ footer {
 ul {
 	list-style-type: hebrew;
 }
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
 /* end styling */
