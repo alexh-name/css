@@ -19,6 +19,7 @@ nav {
 	position: fixed;
 	width: 3ch;
 	font-family: monospace;
+	font-size: smaller;
 }
 nav a {
 	float: left;
