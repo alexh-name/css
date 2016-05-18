@@ -47,7 +47,7 @@ div#links {
 	padding-bottom: 2ch;
 }
 div#links a {
-	margin-top: 0.5ch;
+	margin: 0.4ch;
 	display: inline-block;
 }
 /* end structure */
@@ -63,11 +63,13 @@ header, footer {
 	font-size:0.8em;
 	font-family: monospace;
 }
-nav a, div#links a {
+div#paper, nav a, div#links a {
 	border: solid thin;
+	box-shadow: none;
+	transition: box-shadow 0.2s;
 }
 div#paper, nav a:hover, div#links a:hover {
-	border: solid;
+	box-shadow: 3px 3px;
 }
 article {
 	line-height:140%;
