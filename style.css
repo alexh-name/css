@@ -36,14 +36,11 @@ div#paper, div#links {
 article {
 	padding-top: 3ch;
 	margin-left: 3ch;
-	margin-right: 3ch;
-	padding-bottom: 3ch;
+	margin-right: 2ch;
+	padding-bottom: 2ch;
 }
 header {
 	padding-bottom: 8ch;
-}
-footer {
-	padding-bottom: 2ch;
 }
 div#links {
 	padding-top: 2ch;
