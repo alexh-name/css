@@ -30,7 +30,7 @@ nav a {
 div#margin-box {
 	margin-left: 2ch;
 }
-div#paper, div#links {
+div#paper, div#lastlinks {
 	max-width: 84ch;
 }
 article {
@@ -42,11 +42,11 @@ article {
 header {
 	padding-bottom: 8ch;
 }
-div#links {
+div#lastlinks {
 	padding-top: 2ch;
 	padding-bottom: 2ch;
 }
-div#links a {
+div#lastlinks a {
 	margin: 0.4ch;
 	display: inline-block;
 }
@@ -63,12 +63,12 @@ header, footer {
 	font-size:0.8em;
 	font-family: monospace;
 }
-div#paper, nav a, div#links a {
+div#paper, nav a, div#lastlinks a {
 	border: solid thin;
 	box-shadow: none;
 	transition: box-shadow 0.2s;
 }
-div#paper, nav a:hover, div#links a:hover {
+div#paper, nav a:hover, div#lastlinks a:hover {
 	box-shadow: 3px 3px;
 }
 article {
