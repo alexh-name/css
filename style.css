@@ -82,6 +82,7 @@ pre {
 	word-wrap:normal;
 	max-width:95%;
 	margin: auto;
+	margin-bottom: 1ch;
 	padding: 1ch;
 }
 code,.quote {
