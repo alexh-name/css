@@ -58,9 +58,11 @@ div#topbox {
 	min-height: 9ch;
 	overflow: auto;
 	font-size: smaller;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div#topbox img {
-	float: left;
 	height: 9ch;
 	padding: 1ch;
 }
