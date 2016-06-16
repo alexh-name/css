@@ -50,6 +50,9 @@ div#lastlinks a {
 	margin: 0.4ch;
 	display: inline-block;
 }
+div#topbox {
+	display: none;
+}
 /* end structure */
 /* styling */
 body {
