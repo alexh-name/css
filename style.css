@@ -145,5 +145,6 @@ div#topbox a {
 	background: inherit;
 	text-decoration: none;
 	border-bottom: thin solid;
+	padding: initial;
 }
 /* end styling */
