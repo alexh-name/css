@@ -51,7 +51,16 @@ div#lastlinks a {
 	display: inline-block;
 }
 div#topbox {
-	display: none;
+	max-width: 80ch;
+	padding: 1ch;
+	min-height: 9ch;
+	overflow: auto;
+	font-size: smaller;
+}
+div#topbox img {
+	float: left;
+	height: 9ch;
+	padding: 1ch;
 }
 /* end structure */
 /* styling */
@@ -131,5 +140,10 @@ ul {
 footer ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+div#topbox a {
+	background: inherit;
+	text-decoration: none;
+	border-bottom: thin solid;
 }
 /* end styling */
