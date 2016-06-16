@@ -437,5 +437,6 @@ footer ul {
 /* merged */
 .monospace, nav, header, footer {
 	font-family: Source Code Pro, monospace;
+	font-size: 0.6em;
 }
 /* end merged */
