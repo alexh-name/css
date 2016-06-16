@@ -141,6 +141,9 @@ footer ul {
 	list-style-type: none;
 	padding-left: 0;
 }
+div#topbox {
+	line-height: 140%;
+}
 div#topbox a {
 	background: inherit;
 	text-decoration: none;
