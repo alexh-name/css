@@ -66,6 +66,10 @@ div#topbox img {
 	height: 9ch;
 	padding: 1ch;
 }
+div#topbox p {
+	padding-left: 1ch;
+	padding-right: 1ch;
+}
 /* end structure */
 /* styling */
 body {
