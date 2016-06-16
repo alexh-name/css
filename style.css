@@ -53,6 +53,8 @@ div#lastlinks a {
 div#topbox {
 	max-width: 80ch;
 	padding: 1ch;
+	padding-left: 3ch;
+	padding-right: 3ch;
 	min-height: 9ch;
 	overflow: auto;
 	font-size: smaller;
