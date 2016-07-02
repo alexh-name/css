@@ -80,7 +80,7 @@ pre {
 	margin-bottom: 1ch;
 	padding: 1ch;
 }
-code,.quote {
+pre,.quote {
 	line-height:normal;
 }
 a {
